@@ -18,4 +18,3 @@ def get_personal_info(users):
         }
         personal_info.append(user_info)
     return personal_info
-
