@@ -10,7 +10,8 @@ def get_users(path):
                 'name': user['name'],
                 'gender': user['gender'],
                 'address': user['address'],
-                'age': user['age']
+                'age': user['age'],
+                'books': []
             }
             personal_info.append(user_info)
     return personal_info
