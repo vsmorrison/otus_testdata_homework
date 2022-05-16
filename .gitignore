@@ -129,4 +129,5 @@ dmypy.json
 .pyre/
 books.csv
 users.json
+result.json
 .idea
