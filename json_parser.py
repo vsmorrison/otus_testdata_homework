@@ -1,8 +1,8 @@
 import json
 
 
-def get_users(path):
-    personal_info = []
+def get_users_info(path):
+    users_info = []
     with open(path, 'r') as json_file:
         users = json.load(json_file)
         for user in users:
@@ -13,5 +13,5 @@ def get_users(path):
                 'age': user['age'],
                 'books': []
             }
-            personal_info.append(user_info)
-    return personal_info
+            users_info.append(user_info)
+    return users_info

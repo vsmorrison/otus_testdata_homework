@@ -1,7 +1,7 @@
 import csv
 
 
-def get_books(path):
+def get_books_info(path):
     books_info = []
     with open(path, newline='') as csv_file:
         books = csv.DictReader(csv_file)
